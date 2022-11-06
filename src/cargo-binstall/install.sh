@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Activating feature 'binstall'"
+echo "Activating feature 'cargo-binstall'"
 
 export DEBIAN_FRONTEND=noninteractive
 apt-get update && apt-get install -y curl

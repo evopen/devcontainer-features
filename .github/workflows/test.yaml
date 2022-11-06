@@ -15,7 +15,7 @@ jobs:
         features:
           - color
           - hello
-          - binstall
+          - cargo-binstall
         baseImage:
           - debian:latest
           - ubuntu:latest
