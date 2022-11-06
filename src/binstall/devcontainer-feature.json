@@ -4,6 +4,10 @@
     "version": "1.0.0",
     "description": "Install Cargo Binstall",
     "options": {
+        "version": {
+            "type": "string",
+            "default": "latest"
+        },
         "install": {
             "type": "array",
             "description": "List of package to install"
