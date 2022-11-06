@@ -13,4 +13,10 @@ tar zxvf binstall.tgz
 mv cargo-binstall /usr/local/bin/
 rm binstall.tgz
 
-echo $INSTALL
+echo installing $INSTALL
+
+IFS=';' read -ra PKGS <<< "$INSTALL"
+for PKG in "${PKGS[@]}"; do
+  echo Installing $PKG
+  cargo-binstall $PKG
+done
