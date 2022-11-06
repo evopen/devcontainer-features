@@ -1,0 +1,19 @@
+{
+    "name": "Cargo Binstall",
+    "id": "cargo-binstall",
+    "version": "1.0.0",
+    "description": "Install Cargo Binstall",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "0.16.0"
+        },
+        "install": {
+            "type": "array",
+            "description": "List of package to install",
+            "default": [
+                "cargo-watch"
+            ]
+        }
+    }
+}
