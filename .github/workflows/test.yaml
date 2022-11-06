@@ -15,6 +15,7 @@ jobs:
         features:
           - color
           - hello
+          - binstall
         baseImage:
           - debian:latest
           - ubuntu:latest

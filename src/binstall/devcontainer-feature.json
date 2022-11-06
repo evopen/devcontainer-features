@@ -1,0 +1,12 @@
+{
+    "name": "Cargo Binstall",
+    "id": "cargo-binstall",
+    "version": "1.0.0",
+    "description": "Install Cargo Binstall",
+    "options": {
+        "install": {
+            "type": "array",
+            "description": "List of package to install"
+        }
+    }
+}
