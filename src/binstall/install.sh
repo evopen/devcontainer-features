@@ -12,3 +12,5 @@ curl -sL https://github.com/cargo-bins/cargo-binstall/releases/download/v${VERSI
 tar zxvf binstall.tgz
 mv cargo-binstall /usr/local/bin/
 rm binstall.tgz
+
+echo $INSTALL

@@ -10,7 +10,11 @@
         },
         "install": {
             "type": "array",
-            "description": "List of package to install"
+            "description": "List of package to install",
+            "default": [
+                "cargo-watch",
+                "grcov"
+            ]
         }
     }
 }
