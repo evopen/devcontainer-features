@@ -1,6 +1,6 @@
 {
     "name": "Cargo Binstall",
-    "id": "binstall",
+    "id": "cargo-binstall",
     "version": "1.0.0",
     "description": "Install Cargo Binstall",
     "options": {
