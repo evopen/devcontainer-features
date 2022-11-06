@@ -18,5 +18,5 @@ echo Installing $INSTALL
 IFS=',' read -ra PKGS <<< "$INSTALL"
 for PKG in "${PKGS[@]}"; do
   echo Installing $PKG
-  cargo-binstall --no-confirm $PKG
+  cargo-binstall --install-path /usr/local/bin/ --no-confirm $PKG
 done
