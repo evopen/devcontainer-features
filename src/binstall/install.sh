@@ -15,7 +15,8 @@ rm binstall.tgz
 
 echo Installing $INSTALL
 
-IFS=',' read -ra ADDR <<< "$INSTALL"
-for i in "${ADDR[@]}"; do
-  echo $i
+IFS=',' read -ra PKGS <<< "$INSTALL"
+for PKG in "${PKGS[@]}"; do
+  echo Installing $PKG
+  cargo-binstall $PKG
 done
